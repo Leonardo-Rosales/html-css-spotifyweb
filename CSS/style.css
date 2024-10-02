@@ -127,6 +127,71 @@ body {
 	flex-grow: 1;
 }
 
+.app__sidebar{
+	color: var(--white);
+	font-size: 12px;
+}
+
+.container-sidebar{
+	display: flex;
+	flex-direction: column;
+	padding: 15px 20px 6px;
+	gap: 25px;
+}
+
+.nav-bar ul{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;	
+}
+
+.playlist ul{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.logo{
+	width: 130px;
+	height: 40px;
+}
+
+.plus{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding-top: 10px;
+}
+
+.square{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35px;
+	aspect-ratio: 1 /1;
+	background-color: #a3a3a3;
+	color: var(--black);
+	font-size: 20px;
+}
+
+.banner-bar{
+	background-color: #080B12;
+	padding: 25px 6px;
+	text-align: right;
+}
+.cta{
+	display: inline-block;
+	text-transform: uppercase;
+    line-height: 38px;
+    background-color: #080B12;
+    color: var(--white);
+    border-radius: 999px;
+	border: 1px solid var(--white);
+    padding: 0 38px;
+}
+
+
+
 
 
 @media (max-width: 575.98px) {
