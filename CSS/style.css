@@ -156,6 +156,10 @@ body {
 	height: 40px;
 }
 
+.logo-small{
+	display: none;
+}
+
 .plus{
 	display: flex;
 	align-items: center;
@@ -178,6 +182,7 @@ body {
 	background-color: #080B12;
 	padding: 25px 6px;
 	text-align: right;
+	margin-bottom: 15px;
 }
 .cta{
 	display: inline-block;
@@ -190,12 +195,37 @@ body {
     padding: 0 38px;
 }
 
-
+.category-bar{
+	text-transform: uppercase;
+	color: #7D7F84;
+	font-size: 12px;
+	font-weight: 700;
+}
+.category{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+}
 
 
 
 @media (max-width: 575.98px) {
 	.app__sidebar {
 		--sidebar-width: 50px;
+	}
+
+	.playlist,
+	.logo{
+		display: none;
+	}
+
+	.app__sidebar :only-of-type span {
+		display: none;
+	}
+
+	.logo-small{
+		display: block;
+		
 	}
 }
