@@ -234,9 +234,13 @@ body {
 }
 /* CONTENT */
 
+.main-content{
+	overflow-y: scroll;
+	
+}
+
 .app__content {
 	flex-grow: 1;
-	
 }
 
 .container-content{
@@ -283,6 +287,21 @@ body {
 	
 }
 
+/* CARD */
+
+.container-card{
+	display: flex;
+	gap: 12px;
+	padding: 30px 34px 0 18px;
+}
+
+.card{
+	width: calc(100% / 6);
+}
+
+.info-card{
+	text-align: center;
+}
 
 
 @media (max-width: 575.98px) {
