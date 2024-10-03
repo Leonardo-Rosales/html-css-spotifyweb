@@ -10,101 +10,69 @@
 	<body class="">
 		<div class="app">
 			<div class="app__body">
+
 				<header class="app__sidebar">
-                    <div class="container-sidebar">
 
-                        <figure>
-                            <img class="logo" src="./img/logo.svg" alt="">
-                            <img class="logo-small" src="./img/logo-small.svg" alt="">
-                        </figure>
-                        <div class="nav-bar">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa-solid fa-house"></i>
-                                        <span>Home</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                        <span>Cerca</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fa-solid fa-book"></i>
-                                        <span>La tua Libreria</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="playlist">
-                            <strong>PLAYLIST</strong>
-                            <ul>
-                                <li>
-                                    <a class="plus" href="#">
-                                        <span class="square"><i class="fa-solid fa-plus"></i></span>
-                                        <span>Crea Playlist</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Nome Playlist
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Nome Playlist
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Nome Playlist
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Nome Playlist
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Nome Playlist
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Nome Playlist
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Nome Playlist
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="download-bar">
-                            <div>
-                                <a href="#">
-                                    <i class="fa-regular fa-circle-down"></i>
-                                    <span>Installa app</span>
-                                </a>
-                            </div>
-                            <div>
-                               <a href="#">
-                                    <i class="fa-solid fa-circle-user" style="color: #808080;"></i>
-                                    <span>John Doe</span>
-                               </a>
-                            </div>
+					<a class="logo" href="./">
+						<img class="logo__lg" src="./img/logo.svg" alt="" />
+						<img class="logo__xs" src="./img/logo-small.svg" alt="" />
+					</a>
+					<nav class="main-menu">
+						<ul>
+							<li class="menu__item active">
+								<a href="#">
+									<img class="item-icon" src="./img/home.svg" alt="" />
+									<span class="item-text"> Home </span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									<img class="item-icon" src="./img/search.svg" alt="" />
+									<span class="item-text"> Cerca </span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">
+									<img class="item-icon" src="./img/libreria.svg" alt="" />
+									<span class="item-text"> La tua libreria </span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="new-playlist">
+						<h3 class="new-playlist__title">Playlist</h3>
+						<button class="new-playlist__button">
+							<div class="button-icon">
+								<i class="fa-solid fa-plus"></i>
+							</div>
+							<span>Crea playlist</span>
+						</button>
+					</div>
+					<ul class="playlists">
+						<li class="playlist-item"><a href="#">Nome playlist</a></li>
+						<li class="playlist-item"><a href="#">Nome playlist</a></li>
+						<li class="playlist-item"><a href="#">Nome playlist</a></li>
+						<li class="playlist-item"><a href="#">Nome playlist</a></li>
+						<li class="playlist-item"><a href="#">Nome playlist</a></li>
+						<li class="playlist-item"><a href="#">Nome playlist</a></li>
+					</ul>
+					<div class="user-details">
+						<button class="app-download">
+							<img src="./img/download.svg" alt="" />
+							<span class="button-text"> Installa app </span>
+						</button>
+						<a class="user-profile" href="">
+							<div class="user-thumbnail">
+								<img src="./img/profile.svg" alt="" />
+							</div>
+							<span class="user-name"> John Doe </span>
+						</a>
+					</div>
 
-                        </div>
+				</header>
 
-                    </div>
-                </header>
 				<main class="app__content">
-
+                    
                     <div class="banner-bar">
                         <div class="cta">effettua l'upgrade</div>
                     </div>
