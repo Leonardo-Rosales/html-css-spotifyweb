@@ -52,6 +52,7 @@ body {
 .app__body {
 	flex-grow: 1;
 	display: flex;
+	height: 0;
 }
 .app__player {
 	background-color: var(--dark-gray);
@@ -236,7 +237,6 @@ body {
 
 .main-content{
 	overflow-y: scroll;
-	
 }
 
 .app__content {
@@ -244,8 +244,8 @@ body {
 }
 
 .container-content{
-	position: relative;
-
+	height: 100%;
+	overflow-y: scroll;
 }
 .banner-bar{
 	display: flex;
@@ -253,6 +253,7 @@ body {
 	padding: 45px 10px;
 	background-color: #080B12;
 	margin-bottom: 10px;
+	position: relative;
 }
 
 .cta{
@@ -298,6 +299,7 @@ body {
 	width: calc(100% / 6);
 	padding: 5px;
 }
+
 
 .title-card{
 	margin-top: 30px;
