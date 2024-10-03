@@ -306,12 +306,23 @@ body {
 
 .info-card{
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 }
 
+.info-card > h3 {
+	padding-top: 10px;
+}
+.subtitle{
+	color: #7D7F84;
+	padding-left: 18px;
+}
 .info-card > div{
 	color: #7D7F84;
 	padding-top: 5px;
+}
+
+.card-circle{
+	border-radius: 50%;
 }
 
 @media (max-width: 878px){
