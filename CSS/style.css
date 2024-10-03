@@ -236,8 +236,52 @@ body {
 
 .app__content {
 	flex-grow: 1;
+	
 }
 
+.container-content{
+	position: relative;
+
+}
+.banner-bar{
+	display: flex;
+	align-items: center;
+	padding: 45px 10px;
+	background-color: #080B12;
+	margin-bottom: 10px;
+}
+
+.cta{
+	position: absolute;
+	right: 5px;
+	top: 22px;
+	line-height: 34px;
+	border: 1px solid var(--white);
+	 border-radius:999px; ;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+.category{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	text-transform: uppercase;
+	color: #7D7F84;
+	
+}
+
+.category-name-evidence::after,
+.category-name:hover::after{
+
+	content: '';
+	display: block;
+	width: 30px;
+	border-bottom: 2px solid var(--brand-color);
+	margin: 0 auto;
+	
+}
 
 
 
